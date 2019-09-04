@@ -20,3 +20,7 @@ def reduce(array, sp = 0)
   end
   sum
 end
+
+a = [1,5,7]
+
+reduce(a) {|element| element+element}
