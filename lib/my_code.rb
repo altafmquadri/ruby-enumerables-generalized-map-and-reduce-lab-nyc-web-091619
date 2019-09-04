@@ -15,12 +15,7 @@ def reduce(array, sp = 0)
     sum = yield(array[i], sum)
     i+=1
   end
-  if sum == nil
-    return false
-  end
-  sum
+  sum == nil ? false : sum
 end
 
-a = [1,5,7]
 
-reduce(a) {|element| element+element}
