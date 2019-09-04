@@ -15,5 +15,5 @@ def reduce(array, sp = 0)
     sum = yield(sum, array[i])
     i+=1
   end
-  sum == nil ? false : sum 
+  sum == nil ? false : true 
 end
