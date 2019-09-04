@@ -12,7 +12,7 @@ def reduce(array, sp = 0)
   sum = sp
   i = 0
   while i < array.length
-    sum += yield(array[i])
+    sum = yield(array[i])
   end
   sum
 end
